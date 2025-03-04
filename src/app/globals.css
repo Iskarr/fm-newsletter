@@ -3,6 +3,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  --Red: hsl(4, 100%, 67%);
+  --dark-blue: hsl(234, 29%, 20%);
+  --lighter-Blue: hsl(235, 18%, 26%);
+  --gray: hsl(0, 0%, 58%);
+  --white: hsl(0, 0%, 100%);
+
+  --normal-font: 16px;
 }
 
 @theme inline {
