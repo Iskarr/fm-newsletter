@@ -1,5 +1,5 @@
 "use client";
-// components/SuccessMessage.tsx
+
 import Image from "next/image";
 
 interface SuccessMessageProps {

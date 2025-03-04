@@ -1,5 +1,5 @@
 "use client";
-// components/NewsletterSignup.tsx
+
 import { useState } from "react";
 import Image from "next/image";
 import SuccessMessage from "./SuccessMessage";
@@ -61,7 +61,6 @@ const NewsletterSignup = () => {
     return <SuccessMessage email={submittedEmail} onDismiss={handleDismiss} />;
   }
 
-  // Otherwise, show the signup form
   return (
     <div className="flex justify-center items-center min-h-screen bg-slate-800 p-4">
       <div className="flex flex-col max-w-5xl w-full bg-white rounded-3xl overflow-hidden shadow-xl">
@@ -78,9 +77,7 @@ const NewsletterSignup = () => {
           </div>
         </div>
 
-        {/* Main content container - reordered for mobile first */}
         <div className="flex flex-col md:flex-row w-full">
-          {/* Left side - Content */}
           <div className="w-full md:w-1/2 p-8 md:p-12 flex flex-col justify-center">
             <h1 className="text-4xl md:text-5xl font-bold text-slate-800 mb-6">
               Stay updated!
