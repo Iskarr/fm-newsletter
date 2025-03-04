@@ -34,7 +34,7 @@ const SuccessMessage = ({ email, onDismiss }: SuccessMessageProps) => {
 
         <button
           onClick={onDismiss}
-          className="w-full bg-slate-800 hover:bg-slate-900 text-white font-medium py-3 px-4 rounded-lg transition duration-150 ease-in-out hover:shadow-md hover:-translate-y-0.5 active:translate-y-0 active:shadow-sm"
+          className="w-full bg-slate-800 hover:bg-slate-900 text-white font-medium py-3 px-4 rounded-lg transition duration-150 ease-in-out btn-gradient"
         >
           Dismiss message
         </button>

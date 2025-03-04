@@ -47,24 +47,45 @@ body {
 
 /* Button styles with hover effect */
 
-.btn-subscribe:hover {
-  background: linear-gradient(-240deg, var(--Red), rgb(223, 89, 0));
+/* .btn-gradient {
+  background: linear-gradient(to right, #fc667c, #ff7d6e);
   color: white;
   border: none;
-  border-radius: 4px;
-  padding: 12px 24px;
+  border-radius: 8px;
+  padding: 16px 24px;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-  text-align: center;
-  width: 100%;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 20px rgba(255, 107, 129, 0.3);
+  transition: all 0.2s ease;
+} */
+
+.btn-gradient:hover {
+  background: linear-gradient(to right, #ff3856, #ff2a12);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(255, 107, 129, 0.3);
+  transition: all 0.2s ease;
 }
 
-.btn-subscribe:active {
+.btn-gradient:active {
   transform: translateY(0);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 16px rgba(255, 107, 129, 0.3);
+}
+
+/* If you need just the gradient without the button styling */
+.gradient-bg {
+  background: linear-gradient(to right, #ff6b81, #ff7d6e);
+}
+
+/* If you need just the gradient without the button styling */
+.gradient-bg {
+  background: linear-gradient(to right, #ff6b81, #ff8095);
 }
 
 /* Input field with black border */

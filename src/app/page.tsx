@@ -69,7 +69,7 @@ const NewsletterSignup = () => {
         <div className="md:hidden w-full p-0">
           <div className="relative w-full">
             <Image
-              src="assets/images/illustration-sign-up-desktop.svg"
+              src="assets/images/illustration-sign-up-mobile.svg"
               alt="Newsletter"
               width={500}
               height={300}
@@ -140,7 +140,7 @@ const NewsletterSignup = () => {
 
               <button
                 type="submit"
-                className="w-full bg-slate-800 hover:bg-slate-900 text-white font-medium py-3 px-4 rounded-lg transition duration-150 ease-in-out btn-subscribe"
+                className="w-full bg-slate-800 hover:bg-slate-900 text-white font-medium py-3 px-4 rounded-lg transition duration-150 ease-in-out btn-gradient"
               >
                 Subscribe to monthly newsletter
               </button>
